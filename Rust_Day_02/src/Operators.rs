@@ -31,4 +31,14 @@ fn main(){
      
     x %= 2;
     println!("After %= 2: {} ", x);
+
+    // Comparison operators
+
+    let a = 23;
+    let b = 45;
+
+    println!("23 == 45: {}", a == b);
+    println!("23 > 45: {}", a > b);
+    println!("23 < 45: {}", a < b);
+    println!("23 != 45: {}", a != b);
 }
