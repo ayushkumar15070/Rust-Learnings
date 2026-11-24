@@ -5,7 +5,7 @@ fn main(){
     let my_letter = 'D';
     let my_text = "Ayush";
 
-    // we can tell rust what type of value they should be 
+    // We can tell rust what type of value they should be 
     // let mynum: i32 = 5;
     // let mydouble: f64 = 5.5;
     // let myletter:char = 'D';
@@ -33,8 +33,7 @@ fn main(){
     println!("The user is logged in {}: ", isloggedin);
 
 
-    // combining the datatype
-
+    // Combining the Datatype
     let name:&str = "Ayush";
     let age: i32 = 23;
     let isadmin:bool = true;
