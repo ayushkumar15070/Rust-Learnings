@@ -1,5 +1,3 @@
-use std::{collections::HashMap, vec};
-
 fn main() {
     println!("Hello, world!");
 
