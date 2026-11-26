@@ -7,4 +7,8 @@ edition = "2024"
 name = "arrays"
 path = "src/Rust_Arrays.rs"
 
+[[bin]]
+name = "vectors"
+path = "src/Rust_Vectors.rs"
+
 [dependencies]
