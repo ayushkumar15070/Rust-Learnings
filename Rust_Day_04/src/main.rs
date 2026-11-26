@@ -24,7 +24,7 @@ fn main() {
 
     // Hashmaps
 
-    use std::collections::hash_map;
+    use std::collections::HashMap;
 
     let mut capitalcities =HashMap::new();
     capitalcities.insert("France", "Paris");
