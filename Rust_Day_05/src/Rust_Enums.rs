@@ -1,5 +1,3 @@
-use core::panic::PanicMessage;
-
 fn main(){
     println!("Hello world");
 
@@ -10,8 +8,28 @@ fn main(){
         Left
     }
     
-    let mydirection = Direcrtions::Up;
-    println!("Going up");
+    let mydirection1 = Direcrtions::Up;
+    let mydirection2 = Direcrtions::Down;
+    let mydirection3 = Direcrtions::Right;
+
+    match mydirection1 {
+        Direcrtions::Up => println!("Going Up"),
+        Direcrtions::Down => println!("Going Down"),
+        Direcrtions::Left => println!("Going Left"),
+        Direcrtions::Right => println!("Going Right"),
+    }
+    match mydirection2 {
+        Direcrtions::Up => println!("Going Up"),
+        Direcrtions::Down => println!("Going Down"),
+        Direcrtions::Left => println!("Going Left"),
+        Direcrtions::Right => println!("Going Right"),
+    }
+    match mydirection3 {
+        Direcrtions::Up => println!("Going Up"),
+        Direcrtions::Down => println!("Going Down"),
+        Direcrtions::Left => println!("Going Left"),
+        Direcrtions::Right => println!("Going Right"),
+    }
 
     let myanotherfirection  = Direcrtions::Left;
 
