@@ -3,4 +3,9 @@ name = "Rust_Day_05"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "hashmap"
+path = "src/Rust_HashMap.rs"
+
+
 [dependencies]
