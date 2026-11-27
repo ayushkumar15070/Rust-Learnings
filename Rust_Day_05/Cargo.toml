@@ -8,4 +8,8 @@ name = "hashmap"
 path = "src/Rust_HashMap.rs"
 
 
+[[bin]]
+name = "structs"
+path = "src/Rust_Structs.rs"
+
 [dependencies]
