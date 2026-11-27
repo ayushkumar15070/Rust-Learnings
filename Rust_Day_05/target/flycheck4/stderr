@@ -1,2 +1,4 @@
-    Checking Rust_Day_05 v0.1.0 (C:\Users\ftayu\Downloads\Coding\Master\Rust\Rust_Day_05)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.20s
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on shared package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
